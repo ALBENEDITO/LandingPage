@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+                <img class="logo" src="images/BIMC.jpg" />
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#" id="NavHistory">História</a></li>
+              <li><a href="#">Eventos</a></li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        <div class="slider">
+            <div class="slider--controls">
+                <div onclick="goPrev()">
+                    <img class="slider--control" src="images/esquerda.png" />
+                </div>
+                <img class="logo2" src="images/logo2.png" />
+                <div onclick="goNext()">
+                    <img class="slider--control" src="images/direita.png" />
+                </div>
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('images/1.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/2.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/3.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/4.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/5.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/6.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/8.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/9.jpg');">
+                </div>
+                <div class="slider--item" style="background-image: url('images/10.jpg');">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="history" class="default light">
+        <div class="section-title">Nossa História</div>
+        <div class="section-desc">Começo de tudo</div>
+        <div class="section-body">
+            <div class="section-aboutus">
+                <div class="section-aboutus--left">
+                    <p>Tinha tudo para ser apenas um final de semana comum, se não fosse pela existência das
+                        máquinas feitas de aço que despertam a paixão e transformam homens em verdadeiros
+                        obstinados sobre duas rodas.</p>
+                    <p> Era sábado de manhã, dia 05/11/11, e foi em um posto à beira da estrada que Jean Pires (JD) e
+                        Marco Aurélio (PAPAYA), após breves cumprimentos, se juntaram a outros integrantes do
+                        fórum Drag Star Owners Group (DOG), rumo à cidade de São Lourenço em Minas Gerais, onde
+                        acontecia o 1º Encontro Nacional dos DOGs.</p>
+                        <p>    Cerca de 10 motos formavam o bonde, o tempo estava ameno, o céu azul e as curvas da
+                        estrada estavam convidativas, dia perfeito para uma ótima motocada com os amigos, o
+                        destino? Uma reunião que se tornou memorável.</p>
+                        <p>No evento, sendo realizado no Hotel Emboabas e com a presença de amigos de São Paulo,
+                        Minas Gerais e Rio de Janeiro, a conversa estava animada, regada a cerveja e whisky,
+                        estávamos divagando sobre o assunto Moto Clubes quando o JD demonstrou sua vontade de
+                        montar um novo MC, tradicional aos preceitos do motociclismo de raiz, os amigos presentes
+                        estavam especulando diversos nomes para esta nova empreitada, porém nenhum deles
+                        obteve aceitação até que o Papaya, por ser cinéfilo, deferiu o nome “Bastardos Inglórios”.</p>
+                        <p>Bas.tar.do (fr ant bastard) adj: Aquele que se tornou diferente da espécie a que pertence.</p>
+                        <p>In.gló.rio (lat ingloriu) adj: 1. De que não resulta glória 2. Obscuro</p>
+                        <p>Nome forte e uma aplicação perfeita a um Clube que, como os personagens caricatos do filme,
+                        agem com ideais de justiça, procurando banir grupos de pessoas que tentam impor soluções
+                        extremistas à população em geral, ou que cometem crimes e outros tipos de violações sobre
+                        terceiros sem mostrar remorso.</p>
+                        <p>Neste inteirem, encontramos o amigo Valter, vulgo Pois Não (que já participava do antigo
+                        clube do JD), e ele foi apresentado aos princípios básicos, o nome do Clube, seus idealizadores
+                        e se mostrou um dos mais entusiasmados motociclistas que já encontramos, foi convidado a
+                        formar este novo clube e aceitou prontamente.</p>
+                        <p>E então foi criado o primeiro esboço do nosso brasão, apresentado em um churrasco inaugural
+                        do ano, em 15/01/12, a ideia foi compartilhada por todos e após alguns ajustes o brasão
+                        estava pronto.</p>
+                        <p>Com isso é fundado o BASTARDOS INGLÓRIOS MOTO CLUBE com um churrasco promovido
+                        pelos fundadores do qual foram convidados, outros amigos para apresentar a eles o novo
+                        Moto Clube.</p>
+                    <br/>
+                    <a href="" class="button">Learn More</a>
+                </div>
+                <div  class="section-aboutus--right">
+                    <img src="images/11.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="history" class="default dark">
+        <div class="section-title">Nossa História</div>
+        <div class="section-desc">Começo de tudo</div>
+        <div class="section-body">
+            <div class="section-aboutus">
+                <div class="section-aboutus--left">
+                    <p>Tinha tudo para ser apenas um final de semana comum, se não fosse pela existência das
+                        máquinas feitas de aço que despertam a paixão e transformam homens em verdadeiros
+                        obstinados sobre duas rodas.</p>
+                    <p> Era sábado de manhã, dia 05/11/11, e foi em um posto à beira da estrada que Jean Pires (JD) e
+                        Marco Aurélio (PAPAYA), após breves cumprimentos, se juntaram a outros integrantes do
+                        fórum Drag Star Owners Group (DOG), rumo à cidade de São Lourenço em Minas Gerais, onde
+                        acontecia o 1º Encontro Nacional dos DOGs.</p>
+                        <p>    Cerca de 10 motos formavam o bonde, o tempo estava ameno, o céu azul e as curvas da
+                        estrada estavam convidativas, dia perfeito para uma ótima motocada com os amigos, o
+                        destino? Uma reunião que se tornou memorável.</p>
+                        <p>No evento, sendo realizado no Hotel Emboabas e com a presença de amigos de São Paulo,
+                        Minas Gerais e Rio de Janeiro, a conversa estava animada, regada a cerveja e whisky,
+                        estávamos divagando sobre o assunto Moto Clubes quando o JD demonstrou sua vontade de
+                        montar um novo MC, tradicional aos preceitos do motociclismo de raiz, os amigos presentes
+                        estavam especulando diversos nomes para esta nova empreitada, porém nenhum deles
+                        obteve aceitação até que o Papaya, por ser cinéfilo, deferiu o nome “Bastardos Inglórios”.</p>
+                        <p>Bas.tar.do (fr ant bastard) adj: Aquele que se tornou diferente da espécie a que pertence.</p>
+                        <p>In.gló.rio (lat ingloriu) adj: 1. De que não resulta glória 2. Obscuro</p>
+                        <p>Nome forte e uma aplicação perfeita a um Clube que, como os personagens caricatos do filme,
+                        agem com ideais de justiça, procurando banir grupos de pessoas que tentam impor soluções
+                        extremistas à população em geral, ou que cometem crimes e outros tipos de violações sobre
+                        terceiros sem mostrar remorso.</p>
+                        <p>Neste inteirem, encontramos o amigo Valter, vulgo Pois Não (que já participava do antigo
+                        clube do JD), e ele foi apresentado aos princípios básicos, o nome do Clube, seus idealizadores
+                        e se mostrou um dos mais entusiasmados motociclistas que já encontramos, foi convidado a
+                        formar este novo clube e aceitou prontamente.</p>
+                        <p>E então foi criado o primeiro esboço do nosso brasão, apresentado em um churrasco inaugural
+                        do ano, em 15/01/12, a ideia foi compartilhada por todos e após alguns ajustes o brasão
+                        estava pronto.</p>
+                        <p>Com isso é fundado o BASTARDOS INGLÓRIOS MOTO CLUBE com um churrasco promovido
+                        pelos fundadores do qual foram convidados, outros amigos para apresentar a eles o novo
+                        Moto Clube.</p>
+                    <br/>
+                    <a href="" class="button">Learn More</a>
+                </div>
+                <div  class="section-aboutus--right">
+                    <img src="images/11.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
